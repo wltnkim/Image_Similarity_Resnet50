@@ -18,3 +18,7 @@ Given a batch of images, the program tries to find similarity between images usi
 * ``export MKL_THREADING_LAYER=GNU``
 
 Note: More Descriptive Instructions On [Installation](https://machinelearningmastery.com/setup-python-environment-machine-learning-deep-learning-anaconda/)
+
+
+## modify
+Print all of the similarity
