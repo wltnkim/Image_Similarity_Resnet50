@@ -27,10 +27,10 @@ def driver():
         feature_vectors[img_path] = predict(img_path,model)[0]
 
     keys = [k for k,v in feature_vectors.items()]
-    print(keys)
+    #print(keys)
 
     possible_combinations=list(itertools.product(keys, repeat=2))
-    print(possible_combinations)
+    #print(possible_combinations)
     for k, v in possible_combinations:
         diff = findDifference(feature_vectors[k], feature_vectors[v])
         print(k, v, diff)
